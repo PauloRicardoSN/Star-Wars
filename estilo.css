@@ -1,0 +1,305 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+.container{
+  width:100%;
+  height: 100%;
+  background-color: black;
+  
+}
+
+.topo{
+  width: 100%;
+  height:100px;
+  text-align: center;
+  color: gold;
+  text-shadow: 2px 2px 2px black;
+}
+
+.topo h1{
+  font-family:'Times New Roman', Times, serif;
+}
+
+.centro{
+  width:100%;
+  border-top: solid gray 5px;
+  padding-top: 5px;
+  
+
+} 
+
+.centro h3{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  color: crimson;
+  padding-bottom: 5px;
+
+}
+
+.menu{
+  border-top: solid gray 5px;
+  border-bottom: solid gray 15px;
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  color:red;
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  justify-content: space-around
+}
+
+.menu li{
+  border:gold 3px solid;
+  width: 150px;
+  height: 200px;
+  background-color: black;
+}
+
+.menu li a{
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top:70px ;
+  color:gold;
+  text-shadow: 1px 1px 1px black;
+
+}
+
+.conteudo{
+  width:100%;
+  background-color: gray;
+}
+
+#amanhecer{
+  background-image: url(imagens/amanhecerMenu.jpg);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position-x: -140px;
+  transition: 0.2s;
+  
+}
+
+#velha{
+  background-image: url(imagens/velhaMenu.jpeg);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position-x: -110px;
+  transition: 0.2s;
+}
+
+#alta{
+  background-image: url(imagens/altaMenu.jpg);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position-x: -110px;
+  transition: 0.2s;
+}
+
+#queda{
+  background-image: url(imagens/quedaMenu.jpg);
+  background-repeat: no-repeat;
+  background-size: 157px;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  
+}
+
+#imperio{
+  background-image: url(imagens/imperioMenu.jpg);
+  background-repeat: no-repeat;
+  background-size: 157px;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  
+}
+
+#rebeliao{
+  background-image: url(imagens/rebeliaoMenu.webp);
+  background-repeat: no-repeat;
+  background-size: 144px;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  
+}
+
+#nova{
+  background-image: url(imagens/novaMenu.webp);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  
+}
+
+#ordem{
+  background-image: url(imagens/ordemMenu.jpg);
+  background-repeat: no-repeat;
+  background-size: 157px;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  
+}
+
+#jedi{
+  background-image: url(imagens/jediMenu.jpeg);
+  background-repeat: no-repeat;
+  background-size: 157px;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+
+#l1:hover{
+  border:silver 3px solid;
+  width: 170px;
+  height: 220px;
+  
+}
+
+#amanhecer:hover{
+  color:silver;
+  background-size: 500px;
+  font-size: larger;
+  font-variant: small-caps;
+  background-image: url(imagens/amanhecerMenu2.gif);
+}
+
+#l2:hover{
+  border:red 3px solid;
+  width: 170px;
+  height: 220px;
+}
+
+#velha:hover{
+  color:red;
+  background-size: 385px;
+  font-size: larger;
+  font-variant: small-caps;
+  background-image: url(imagens/velhaMenu2.gif);
+}
+
+#l3:hover{
+  border:aqua 3px solid;
+  width: 170px;
+  height: 220px;
+}
+
+#alta:hover{
+  color:aquamarine;
+  background-size: 270px;
+  font-size: larger;
+  font-variant: small-caps;
+  background-image: url(imagens/altaMenu2.gif);
+  background-position: center;
+}
+
+#l4:hover{
+  border:midnightblue 3px solid;
+  width: 170px;
+  height: 220px;
+}
+
+#queda:hover{
+  color:midnightblue;
+  background-size: 450px;
+  text-shadow: 1px 1px 1px white;
+  font-size: larger;
+  font-variant: small-caps;
+  background-image: url(imagens/quedaMenu2.gif);
+  background-position: center;
+}
+
+#l5:hover{
+  border:crimson 3px solid;
+  width: 170px;
+  height: 220px;
+}
+
+#imperio:hover{
+  color:crimson;
+  background-size: 550px;
+  font-size: larger;
+  font-variant: small-caps;
+  background-image: url(imagens/imperioMenu2.gif);
+  background-position: center;
+
+}
+
+#l6:hover{
+  border:greenyellow 3px solid;
+  width: 170px;
+  height: 220px;
+}
+
+#rebeliao:hover{
+  color:greenyellow;
+  background-size: 520px;
+  font-size: larger;
+  font-variant: small-caps;
+  background-image: url(imagens/rebeliaoMenu2.gif);
+  background-position: center;
+
+}
+
+#l7:hover{
+  border:blue 3px solid;
+  width: 170px;
+  height: 220px;
+}
+
+#nova:hover{
+  color:blue;
+  background-size: 250px;
+  font-size: larger;
+  font-variant: small-caps;
+  background-image: url(imagens/novaMenu2.webp);
+
+}
+
+#l8:hover{
+  border:orange 3px solid;
+  width: 170px;
+  height: 220px;
+}
+
+#ordem:hover{
+  color:orange;
+  background-size: 420px;
+  font-size: larger;
+  font-variant: small-caps;
+  background-image: url(imagens/ordemMenu2.gif);
+  background-position: center;
+
+}
+
+#l9:hover{
+  border:white 3px solid;
+  width: 170px;
+  height: 220px;
+}
+
+#jedi:hover{
+  color:white;
+  background-size: 390px;
+  font-size: larger;
+  font-variant: small-caps;
+  background-image: url(imagens/jediMenu2.gif);
+  background-position: center;
+
+}
+
+.conteudo h1{
+  text-align: center;
+  background-color: goldenrod;
+}
+
+.conteudo p{
+  text-indent: 15px;
+}
